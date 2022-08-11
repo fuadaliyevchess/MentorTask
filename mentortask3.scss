@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+    header {
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        .hr1{
+            height: 2px;
+            background: green;
+        }
+        .verticalLine{
+            display: inline-block;
+            width: 1.5px;
+            height: 15px;
+            background: rgb(179, 179, 179);
+        }
+        .flex-box1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            height: 30px;
+            margin-top: 10px;
+            .nav-bar ul li a{
+                list-style-type: none;
+                color: grey;
+                text-decoration: none;
+                margin: 5px;
+                font-size: 18px;
+            }
+            .nav-bar2 ul li a{
+                list-style-type: none;
+                color: grey;
+                text-decoration: none;
+                margin: 5px;
+                font-size: 18px;
+            }
+            .color-green{
+                color: rgb(0, 182, 0);
+            }
+        }
+        .flex-box2 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            width: 100%;
+            height: 80px;
+            .box1{
+                background-image: url(/nest-mart.png);
+                background-repeat: no-repeat;
+                width: 20%;
+                height: 70px;
+            }
+            .box2{
+                border: 1px solid green;
+                width: 40%;
+                height: 70px;
+                ul{
+                    display: inline-block;
+                    li{
+                        list-style-type: none;
+                        a{
+                            color: black;
+                            font-size: 18px;
+                            text-decoration: none;
+                            margin: 5px;
+                        }
+                    }
+                }
+                input{
+                    border: none;
+                    color: grey;
+                    font-size: 18px;
+                    width: 300px;
+                    height: 70px;
+                }
+                i{
+                    color: grey;
+                }
+            }
+            .box3{
+                width: 40%;
+                height: 60px;
+                margin-top: 20px;
+                ul{
+                    justify-content: space-evenly;
+                    li{
+                        list-style-type: none;
+                        a{
+                            color: grey;
+                            text-decoration: none;
+                            font-size: 18px;
+                            margin: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .flex-box3 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            width: 100%;
+            height: 100px;
+            .box1{
+                background: #50B87F;
+                width: 20%;
+                height: 50px;
+                text-align: center;
+                border-radius: 10px;
+                i{
+                    color: white;
+                    p{
+                        display: inline-block;
+                        font-size: 18px;
+                        color: white;
+                    }
+                }
+            }
+            .box2{
+                width: 70%;
+                ul{
+                    list-style-type: none;
+                    li{
+                        i{
+                            margin-left: 5px;
+                            color: #50B87F;
+                        }
+                        a{
+                            margin: 10px;
+                            text-decoration: none;
+                            color: black;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .box3{
+                width: 10%;
+                p{
+                    display: inline-block;
+                    font-size: 18px;
+                }
+                .p-first{
+                    color: #50B87F;
+                }
+            }
+        }
+    }
